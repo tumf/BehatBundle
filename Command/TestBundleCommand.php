@@ -169,7 +169,7 @@ class TestBundleCommand extends BehatCommand
      */
     protected function configureContainer($configFile = null)
     {
-        return $this->getApplication()->getKernel()->getContainer();
+        return $this->application->getKernel()->getContainer();
     }
 
     /**
